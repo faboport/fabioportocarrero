@@ -1,0 +1,41 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    font-family: Rajdhani;
+}
+
+a{
+    font-family: Rajdhani;
+    text-decoration: none;
+    color: #fff;
+}
+
+/*Scrollbar*/
+::-webkit-scrollbar {
+  width: .5vh;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #fff;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #fff;
+}
+
+
+.ico{
+    height:1.5em;
+    width:auto;
+}
+
+right{
+    text-align: right;
+}

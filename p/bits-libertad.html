@@ -1,0 +1,125 @@
+
+
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<style>
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #1c1c1c;
+        color: white;
+    }
+    .markdown-body table tr {
+        background-color: #1c1c1c;
+    }
+    .markdown-body table tr:nth-child(2n) {
+        background-color: black;
+    }
+}
+</style>
+
+<link rel="stylesheet" type="text/css" href="../assets/css/common-vendor.b8ecfc406ac0b5f77a26.css">
+<link rel="stylesheet" type="text/css" href="../assets/css/fretboard.f32f2a8d5293869f0195.css">
+<link rel="stylesheet" type="text/css" href="../assets/css/pretty.0ae3265014f89d9850bf.css">
+<link rel="stylesheet" type="text/css" href="../assets/css/pretty-vendor.83ac49e057c3eac4fce3.css">
+<link rel="stylesheet" type="text/css" href="../assets/css/global.css">
+<link rel="stylesheet" type="text/css" href="../assets/css/misc.css">
+<link rel="stylesheet" type="text/css" href="../assets/css/css.css">
+
+<script type="text/x-mathjax-config">
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\(', '\)']]
+  },
+  svg: {
+    fontCache: 'global',
+  }
+};
+</script>
+<script type="text/javascript" id="MathJax-script" async
+  src="../../../../scripts/tex-svg.js">
+</script>
+
+<style>
+</style>
+
+<div id="doc" class="container-fluid markdown-body comment-enabled" data-hard-breaks="true">
+
+<div id="color-mode-switch">
+  <input type="checkbox" id="switch" />
+  <label for="switch"></label>
+  
+</div>
+
+<script type="text/javascript">
+  // Update root html class to set CSS colors
+  const toggleDarkMode = () => {
+    const root = document.querySelector('html');
+    root.classList.toggle('dark');
+  }
+
+  // Update local storage value for colorScheme
+  const toggleColorScheme = () => {
+    const colorScheme = localStorage.getItem('colorScheme');
+    if (colorScheme === 'light') localStorage.setItem('colorScheme', 'dark');
+    else localStorage.setItem('colorScheme', 'light');
+  }
+
+  // Set toggle input handler
+  const toggle = document.querySelector('#color-mode-switch input[type="checkbox"]');
+  if (toggle) toggle.onclick = () => {
+    toggleDarkMode();
+    toggleColorScheme();
+  }
+
+  // Check for color scheme on init
+  const checkColorScheme = () => {
+    const colorScheme = localStorage.getItem('colorScheme');
+    // Default to light for first view
+    if (colorScheme === null || colorScheme === undefined) localStorage.setItem('colorScheme', 'light');
+    // If previously saved to dark, toggle switch and update colors
+    if (colorScheme === 'dark') {
+      toggle.checked = true;
+      toggleDarkMode();
+    }
+  }
+  checkColorScheme();
+</script>
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Bits y Libertad" />
+<meta name="twitter:image" content="http://fabohax.xyz/img/bitcoin_cloud_gaugan_fabohax.jpg" />
+
+
+<br>
+<h1 style="margin-bottom:7px"> Bits y Libertad </h1>
+<small style="float:left; color: #888"> 2020 May 12 </small>
+<small style="float:right; color: #888"><a href="https://fabohax.xyz">index</a></small>
+<br> <br> <br>
+<title>Bits y Libertad</title>
+
+<p><center><img src="../img/bitcoin_cloud_gaugan_fabohax.jpg"></center></p>
+<i><center>Bitcoin es el sueño cypherpunk. Gaugan AI. @fabohax</center></i>
+<p>
+
+<p>Algo especial sucedió en el primer año después de que Satoshi nos regaló Bitcoin, algo que nadie esperaba y muchos pensaron que era imposible. Intenta imaginar Bitcoin en ese entonces, antes de que pudieras comprar cosas con él, antes de que hubiera un tipo de cambio, antes de que alguien realmente supiera qué pasaría con él. Bitcoin no comenzó como dinero. Se convirtió en dinero, pero lo hizo a diferencia de cualquier dinero que viniera antes. Por todas las cosas que Bitcoin ha hecho posible, por todas las formas en que está cambiando nuestro mundo, no apreciamos completamente ni entendemos lo que sucedió en esos primeros días, cuando era solo una diversión para los geeks.</p>
+
+<p>Cualquier otro dinero anterior a Bitcoin, en la larga historia de la civilización humana, se valoró por razones distintas a su uso como dinero. El ganado en África, los sellos postales en la prisión, las conchas marinas y los metales preciosos se han utilizado como dinero y se ajustan a este patrón. La única excepción es el dinero fiduciario, algo declarado como dinero por una autoridad, pero incluso las monedas fiduciarias nacionales alguna vez estuvieron respaldadas por algo con un valor anterior, como el oro.
+Bitcoin cambió todo eso. Bitcoin no tenía ningún valor previo y nadie se vio obligado a usarlo, sin embargo, de alguna manera se convirtió en un medio de intercambio. Aún así, las personas que no entienden y se preocupan poco por Bitcoin pueden aceptarlo como pago porque saben que puede usarse para pagar algo más o intercambiarse por dinero convencional.</p>
+
+<p>Las personas a menudo mencionan las pizzas que se compraron por diez mil bitcoins y, en retrospectiva, se burlan del tipo que comió lo que se convertiría en un almuerzo multimillonario. Estoy más interesado en la persona que renunció a dos pizzas perfectamente buenas por simples bitcoins. ¿Qué vio en esos bits y bytes, esa firma digital en algo que la gente llamaba blockchain? Lo que sea que haya motivado al vendedor de pizza también puede haber llamado la atención a los primeros mineros que no pudieron cobrar al principio pero felizmente lo atesoraron en sus billeteras. Pudo haber inspirado también a los que simplemente regalaron bitcoins por miles. Lo que sea que fuera, era algo nuevo.</p>
+
+<p>La economía clásica dice que el intercambio no sucederá a menos que ambas partes valoren lo que están obteniendo más de lo que están renunciando. Entonces, ¿de dónde vino el valor? Bitcoin nunca debería haber despegado, pero lo hizo. Incluso un nuevo producto tiene algún tipo de valor, y los primeros usuarios corren el riesgo de no obtener el valor de su dinero, pero aún esperan obtener ganancias del intercambio.
+Los primeros en adoptar Bitcoin, por otro lado, no tenían forma de saber que lo hacemos ahora. Todo lo que tenían era un sueño, una convicción y un entusiasmo contagioso suficiente para poner en marcha una invención digital en un fenómeno multimillonario del que apenas comenzamos a ver los efectos.</p>
+
+<p>Te diré lo que creo que pasó aunque la verdad es que nadie lo sabe. Es como magia que Bitcoin pudo venir de la nada y sin un valor previo o un decreto autorizado para convertirse en dinero. Pero Bitcoin no apareció en el vacío. Era una solución a un problema con el que los criptógrafos habían estado luchando durante muchos años: cómo crear dinero digital sin una autoridad central que no se pudiera falsificar y en el que se pudiera confiar.</p>
+
+<p>Este problema persistió durante tanto tiempo que algunos dejaron la solución a otros y solo soñaron cómo sería nuestro futuro si el dinero digital descentralizado surgiera de alguna manera. Soñaron con un futuro en el que el poder económico del mundo sea accesible para todos, donde el valor se pueda transferir a cualquier lugar con un golpe clave. Soñaban con prosperidad y libertad, dependientes solo de las matemáticas del cifrado fuerte.</p>
+
+<p>Por lo tanto, Bitcoin nació en un terreno fértil y fue reconocido por aquellos que lo habían estado esperando. Este fue un momento histórico para ellos, mucho más importante que las pizzas o las facturas de electricidad derivadas de la minería. La promesa de libertad y el encanto del destino energizaron a la comunidad primitiva. Bitcoin fue conscientemente, pero espontáneamente tomado como dinero mientras nadie estaba mirando, y nuestro mundo nunca será el mismo.</p>
+
+<strong><p>Texto Original de Ross Ulbricht</p></strong>
+
+<p><i>
+Condenado por la Justicia Estadounidense a dos cadenas perpetuas mas cuarenta años sin libertad condicional por crear un mercado virtual con Bitcoin como único medio de intercambio. Firma la petición para Liberar a Ross aquí: <a href="https://freeross.org/" target="_blank">https://freeross.org/</a></i></p>
